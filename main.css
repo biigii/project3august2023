@@ -1,0 +1,38 @@
+/* cascading nature of css */
+
+/* #heading {
+  color: red;
+} */
+
+/* id class type */
+/* 0 1 1 */
+h1.heading {
+  color: pink;
+}
+
+/* 0 1 0 */
+.heading {
+  color: red;
+  background-color: yellow;
+}
+
+h1 {
+  color: red;
+}
+
+h1 {
+  color: blue;
+  color: purple;
+}
+
+/* <div class="burger">
+    <p class="text">lorem</p>
+</div> */
+
+p.text {
+  color: blue
+}
+
+.burger p {
+  color: red;
+}
