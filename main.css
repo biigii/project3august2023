@@ -1,42 +1,30 @@
-/* body {
-  background-color: lightpink;
-}
-
-h1 {
-  color: red;
-} */
-
-/* .heading {
-  color: red;
-  background-color: blue;
-}
-
-#main-heading {
-  color: green;
-  background-color: yellow;
-} */
-
-h1 {
-  background-color: lightsalmon;
-  display: inline;
-}
-
-h3 {
-  background-color: lightseagreen;
-  display: inline;
-}
-
 p {
-  /* display: block; */
-display: inline;
-  background-color: lightgreen;
+  /* background-color: lightgoldenrodyellow; */
+}
+
+h6 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.text {
+  background-color: blueviolet;
 }
 
 a {
-  /* display: inline; */
-  display: block;
+  /* background-color: red; */
+}
+
+.links {
   background-color: red;
 }
 
+.content {
+  /* background-color: gray; */
+  color: blue;
+}
 
-
+.danger {
+  background-color: black;
+  color: white
+}
